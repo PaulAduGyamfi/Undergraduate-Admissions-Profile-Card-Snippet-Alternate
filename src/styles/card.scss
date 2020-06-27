@@ -1,0 +1,65 @@
+@use './global';
+
+
+.Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        // background-color: rgb(157, 255, 239);
+        align-items: center;
+        justify-content: center;
+
+        
+                .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-CardWrapper{
+                        position: relative;
+                        box-sizing: border-box;
+                    .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card{
+                        height: 26.625em;
+                        width: 18.250em;
+                        margin: 1em;
+                        // background-color: mediumvioletred;
+                        background-position: 50% 50%;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        position: relative;
+                        
+                        
+                
+                        .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom{
+                            background-color: #990000;
+                            position: absolute;
+                            width: 100%;
+                            bottom: 0;
+                            height: 6.688em;
+                            border-top: 2.25px solid #ffffff;
+
+                            .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom-Caption{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                                height: 100%;
+                                text-align: center;
+                                color: #ffffff;
+                                    .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom-Caption-Name{
+                                        font-weight: 800;
+                                        text-transform: uppercase;
+                                    }
+                                    .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom-Caption-Job{
+                                        font-size: 0.8em;
+                                        font-style: italic;                                    }
+                                    .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom-Caption-Location{
+                                        margin-top: 0.75em;
+                                        font-size: 0.9em;
+                                        
+
+                                    }
+                            }
+                        }
+                
+                    }
+
+                }
+    
+
+}
