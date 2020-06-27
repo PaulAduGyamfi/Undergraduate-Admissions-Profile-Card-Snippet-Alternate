@@ -15,7 +15,7 @@
                         box-sizing: border-box;
                     .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card{
                         height: 26.625em;
-                        width: 18.250em;
+                        width: 17.313em;
                         margin: 1em;
                         // background-color: mediumvioletred;
                         background-position: 50% 50%;
@@ -30,30 +30,56 @@
                             position: absolute;
                             width: 100%;
                             bottom: 0;
-                            height: 6.688em;
+                            height: 11.750em;
                             border-top: 2.25px solid #ffffff;
+                            padding: 0.4em 0.6em;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-between;
 
                             .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom-Caption{
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
-                                justify-content: center;
-                                height: 100%;
+                                justify-content: flex-start;
+                                height: 20em;
                                 text-align: center;
                                 color: #ffffff;
+                                margin-top: 0.5em;
                                     .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom-Caption-Name{
                                         font-weight: 800;
                                         text-transform: uppercase;
                                     }
-                                    .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom-Caption-Job{
-                                        font-size: 0.8em;
-                                        font-style: italic;                                    }
                                     .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom-Caption-Location{
                                         margin-top: 0.75em;
-                                        font-size: 0.9em;
+                                        font-size: 0.7em;
+                                       
                                         
 
                                     }
+                            }
+
+                            .Undergraduate-Admissions-Profile-Card-Snippet-Alternate-Card-Bottom-Caption-Button{
+                                    margin-bottom: 1em;
+                                button{
+                                    width: 15.375em;
+                                    height: 2em;
+                                    color: #990000;
+                                    font-weight: 900;
+                                    background-color: #ffffff;
+                                    border:none;
+                                    outline: none;
+                                    cursor: pointer;
+
+                                    &:hover{
+                                        background-color: #f0f0f0;
+                                    }
+                                    &:active{
+                                        background-color: #dfdfdf;
+                                    }
+
+                                }
                             }
                         }
                 
